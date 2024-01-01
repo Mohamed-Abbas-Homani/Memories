@@ -1,0 +1,19 @@
+{
+  "name": "memories",
+  "version": "1.0.0",
+  "description": "An awesome app to store special memories",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "build": "electron-builder"
+  },
+  "author": "Mash",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "electron": "^27.1.3",
+    "electron-builder": "^24.9.1"
+  }
+}
